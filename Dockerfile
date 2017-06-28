@@ -1,4 +1,4 @@
-#FROM ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER Docker Education Team <education@docker.com>
 
 RUN apt-get update
@@ -7,5 +7,5 @@ RUN echo 'Hi, I am in your container' \
     >/usr/share/nginx/html/index.html
 
 CMD [ "nginx", "-g", "daemon off;" ]
-# My Comment
+# My Comment LGI
 EXPOSE 80
